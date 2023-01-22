@@ -19,7 +19,8 @@ class App extends Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    if (!this.state.isEdit && this.state.student.name!=='') {
+    if (!this.state.isEdit && this.state.student.name!==''&&
+    this.state.student.email!=='' &&this.state.student.phone!=='') {
       let id = this.generateId();
       let {student} = this.state;
       student.id =id;
