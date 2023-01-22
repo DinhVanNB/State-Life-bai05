@@ -23,7 +23,6 @@ class App extends Component {
       let id = this.generateId();
       let {student} = this.state;
       student.id =id;
-      console.log(student);
       this
         .state
         .listStudent
@@ -43,9 +42,9 @@ class App extends Component {
           student.phone = this.state.student.phone;
           this.setState({
             listStudent: this.state.listStudent
-          })
+          },()=>localStorage.setItem('listStudent', JSON.stringify(this.state.listStudent)))
         }
-      },()=>localStorage.setItem('listStudent', JSON.stringify(this.state.listStudent)))
+      })
     }
     this.onClear();
     
