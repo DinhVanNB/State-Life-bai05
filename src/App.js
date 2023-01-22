@@ -19,11 +19,11 @@ class App extends Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    if (!this.state.isEdit && this.state.student.name!==''&&
-    this.state.student.email!=='' &&this.state.student.phone!=='') {
+    if (!this.state.isEdit && this.state.student.name!=='') {
       let id = this.generateId();
       let {student} = this.state;
       student.id =id;
+      console.log(student);
       this
         .state
         .listStudent
@@ -110,7 +110,7 @@ class App extends Component {
       }
     })
   }
-
+ 
   componentDidMount() {
     this.setState({
       listStudent: localStorage && localStorage.getItem('listStudent')
