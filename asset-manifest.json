@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/State-Life-bai05/static/css/main.6ee7bf01.css",
-    "main.js": "/State-Life-bai05/static/js/main.c64c77b4.js",
+    "main.js": "/State-Life-bai05/static/js/main.b089d072.js",
     "static/js/787.90413281.chunk.js": "/State-Life-bai05/static/js/787.90413281.chunk.js",
     "index.html": "/State-Life-bai05/index.html",
     "main.6ee7bf01.css.map": "/State-Life-bai05/static/css/main.6ee7bf01.css.map",
-    "main.c64c77b4.js.map": "/State-Life-bai05/static/js/main.c64c77b4.js.map",
+    "main.b089d072.js.map": "/State-Life-bai05/static/js/main.b089d072.js.map",
     "787.90413281.chunk.js.map": "/State-Life-bai05/static/js/787.90413281.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ee7bf01.css",
-    "static/js/main.c64c77b4.js"
+    "static/js/main.b089d072.js"
   ]
 }
